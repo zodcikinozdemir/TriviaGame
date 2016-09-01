@@ -140,7 +140,7 @@ $(document).ready(function() {
         } else {
             var correctSel = questions[currentQuestion].A; 
             var answer = questions[currentQuestion].options[correctSel];
-            $answer.html('<br><br><h2>Correct answer was : ' +answer+'</h2>').show();
+            $answer.html('<br><br><h3>Correct answer was : ' +answer+'</h3>').show();
         }
      
         $($questionDivs.get(currentQuestion)).delay(1000).fadeOut(function(){
