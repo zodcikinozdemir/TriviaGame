@@ -127,7 +127,6 @@ $(document).ready(function() {
 
     $questionDivs.on('change', 'input[name=Opt]:radio', function (e) {
         currentSel = this.value;
-        console.log(currentSel);
     });
 
     stopwatch.start(60);
