@@ -35,7 +35,7 @@ var questions =
         A : 2
       },
        { Q: 'Which of the following jQuery method removes set of matched elements?',
-         options : ['ampty()','delete()','remove()','None of the above.'],
+         options : ['empty()','delete()','remove()','None of the above.'],
          A : 2
        },
        { Q: 'Which of the following is the correct way to create a div element with a link text “Hello” with jQuery?',
@@ -129,7 +129,7 @@ $(document).ready(function() {
         currentSel = this.value;
     });
 
-    stopwatch.start(60);
+    stopwatch.start(30);
 
     $('#next').click(function() {
         if(currentSel == 'true') {
