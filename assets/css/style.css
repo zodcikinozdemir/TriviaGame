@@ -1,0 +1,43 @@
+@import url("reset.css");
+
+
+* {
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+  	margin: 0;
+  	height:90%;
+    width: 100%;
+    padding-top: 20px;
+    background-image: url("../images/questions_and_answers.png");
+}
+
+.title {
+	background-color: #ccc;
+	text-align: center;
+	font-family: 'Oswald', cursive;
+	font-size: 54px;
+}
+
+.timer {
+    background: black;
+  	color:green;
+  	font-size: 48px;
+  	font-family: monospace;
+  	text-align: center;
+  	float:center;
+}
+
+.panel {
+	height: 400px;
+	padding: 10px;
+}
+
+.Q p {
+	font-weight: bold;
+}

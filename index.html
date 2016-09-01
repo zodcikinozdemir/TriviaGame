@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Trivia Game</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	 
+  <!-- Added link to the jQuery Library -->
+  <script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+
+  <!-- Added a link to Bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <div class="container">
+      <div class="row center-block">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8">
+          <h1 class="title">jQuery - Online Quiz</h1>
+        </div>
+        <div class="col-sm-2"></div>
+      </div>
+        <div class="row" id="trivia">
+        <div class="col-sm-3">
+        </div>
+        <div class="col-sm-6">
+          <div class="row timer">
+            <span class="minute">01</span>:<span class="second">00</span>
+          </div>
+          <div class="row panel panel-default" id="main">
+           <div class = "panel-body" id="startScreen">
+            <br><br><p>Are you ready to test your jQuery skills?</p>
+            <p>You have 10 questions and 1 minute on the clock.</p>
+            <p>You will have to read all the given answers and click over the correct answer.</p>
+            <p>At the end of the Quiz, your total score will be displayed.</p>
+            <br>
+             <input type="Submit" id="start" value="Start the Game" style="float:right">
+            </div>
+           <div id='resultScreen'>
+            <center>
+              <h2>Result:</h2>
+              <h2 id='result'></h2>
+            </center>
+          </div>
+          </div>
+        </div>
+        <div class="col-sm-3"></div> 
+      </div>
+    </div>
+
+  <script type="text/javascript" src="assets/javascript/app.js">
+  </script>
+
+  </body>
+</html>
